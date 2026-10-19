@@ -7,7 +7,7 @@
       "listen": "::",
       "listen_port": RENDER_PORT,
       "users": [{ "uuid": "PASTE_YOUR_UUID_HERE" }],
-      "transport": { "type": "ws", "path": "/vless" }
+      "transport": { "type": "ws", "path": "/toggy/api" }
     }
   ],
   "outbounds": [{ "type": "direct", "tag": "direct" }]
