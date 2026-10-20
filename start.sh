@@ -7,7 +7,7 @@ sed -i "s/RENDER_PORT/$PORT/g" config.json
 
 # 后台运行 sing-box
 echo "start server"
-sing-box run -c config.json &
+sing-box run -c config.json
 
 # 运行 Cloudflare Tunnel
 #cloudflared tunnel --no-autoupdate run --token $ARGO_TOKEN
